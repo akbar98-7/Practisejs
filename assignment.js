@@ -33,9 +33,9 @@ HINT: String.includes */
 
 const students = ["hassan", "salman", "kamran", "rashid", "faizan", "noor"];
 
-// const result = students.filter(students=> students.includes("an"));
+const resultss = students.filter((students) => students.includes("an"));
 
-// console.log(result);
+console.log(resultss);
 
 /*Q4. 
 You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of
@@ -52,7 +52,7 @@ const finder = splits.filter((word) => word === "the").length;
 
 const resultant = `The Ocuurences  of word is ${finder} times`;
 
-// console.log(resultant);
+console.log(resultant);
 
 /*Q5. 
 Write a two dimensional for loop program that will print. Get prompt from user & make identity matrix
@@ -62,21 +62,21 @@ eg; if user enters 3 then output matrix will be of 3 x 3
 0 1 0
 0 0 1 */
 
-// let size = +prompt("Enter the size of identity matrix:");
+let size = +prompt("Enter the size of identity matrix:");
 
-// for (let i = 0; i < size; i++) {
-//   let row = "";
+for (let i = 0; i < size; i++) {
+  let row = "";
 
-//   for (let j = 0; j < size; j++) {
-//     if (i === j) {
-//       row += "1 ";
-//     } else {
-//       row += "0 ";
-//     }
-//   }
+  for (let j = 0; j < size; j++) {
+    if (i === j) {
+      row += "1 ";
+    } else {
+      row += "0 ";
+    }
+  }
 
-// //   console.log(row);
-// }
+  console.log(row);
+}
 
 /*Q6. 
 Write a for loop program that will print
@@ -99,7 +99,7 @@ for (let i = 5; i >= 1; i--) {
     row += "*";
   }
 
-  // console.log(row);
+  console.log(row);
 }
 
 /*Q7. 
@@ -119,7 +119,7 @@ function name(value) {
   return value;
 } // Function
 
-// console.log(typeof myData.height);
+console.log(typeof myData.height);
 
 /*Q8. 
 Make a javascript function, that should take arguments (2 operands + 1 operator) & based on that
@@ -139,11 +139,11 @@ function calculate(a, b) {
   };
 }
 
-// const n1 = Number(prompt("Enter First Number:"));
-// const n2 = Number(prompt("Enter Second Number:"));
+const n1 = Number(prompt("Enter First Number:"));
+const n2 = Number(prompt("Enter Second Number:"));
 
-// const result = calculate(n1, n2);
-// console.log(result);
+const result = calculate(n1, n2);
+console.log(result);
 
 /*Q9. 
 We need to store studentData into a variable, which data type we will be using to store that ? Could you
@@ -172,6 +172,6 @@ const studentData = {
 - finalScore
 - hasClassRepresentativeRole */
 
-// console.log(studentData.className);
-// console.log(studentData.finalScore);
-// console.log(studentData.hasClassRepresentativeRole);
+console.log(studentData.className);
+console.log(studentData.finalScore);
+console.log(studentData.hasClassRepresentativeRole);

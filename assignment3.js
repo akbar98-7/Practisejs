@@ -7,14 +7,14 @@ Write a program to print numeric counting from 1 to 10.
 */
 
 for (let i = 0; i <= 10; i++) {
-  // console.log(i)
+  console.log(i);
 }
 
 for (let i = 0; i <= 10; i++) {
   // console.log(`Outer loop value : ${i}`);
   for (let j = 0; j <= 10; j++) {
-    // console.log(`Inner loop value : ${j} and inner loop ${i}`);
-    // console.log(i + '*' + j + '='+ i*j);
+    console.log(`Inner loop value : ${j} and inner loop ${i}`);
+    console.log(i + "*" + j + "=" + i * j);
   }
 }
 
@@ -28,12 +28,12 @@ input from user
 
 */
 
-// let tab = Number(prompt("Enter multiplication number"));
-// let length = Number(prompt("Enter Length"));
+let tab = Number(prompt("Enter multiplication number"));
+let length = Number(prompt("Enter Length"));
 
-// for(i=1; i<=length; i++) {
-//     console.log(`${tab} * ${i} = ${tab * i}`);
-// }
+for (i = 1; i <= length; i++) {
+  console.log(`${tab} * ${i} = ${tab * i}`);
+}
 
 /*
 Q3). 
@@ -48,7 +48,7 @@ fruits = [“apple”, “banana”, “mango”, “orange”,
 const fruits = ["apple", "banana", "mango", "orange", "strawberry"];
 
 for (let i = 0; i < fruits.length; i++) {
-  // console.log("Element at index " + i + " is " + fruits[i]);
+  console.log("Element at index " + i + " is " + fruits[i]);
 }
 
 /*
@@ -67,25 +67,25 @@ e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
 // Counting:
 
 for (let i = 1; i <= 15; i++) {
-  // console.log(i);
+  console.log(i);
 }
 
 //Reverse counting:
 
 for (let i = 10; i >= 1; i--) {
-  // console.log(i);
+  console.log(i);
 }
 
 //Even:
 
 for (let i = 0; i <= 20; i += 2) {
-  // console.log(i);
+  console.log(i);
 }
 
 //Odd:
 
 for (let i = 1; i <= 19; i += 2) {
-  // console.log(i);
+  console.log(i);
 }
 
 //Series:
@@ -96,7 +96,7 @@ for (let i = 2; i <= 20; i += 2) {
   series.push(i + "k");
 }
 
-// console.log("series :" + series.join(", "));
+console.log("series :" + series.join(", "));
 
 /*
 Q5). 
@@ -133,11 +133,11 @@ A = [24, 53, 78, 91, 12].
 
 */
 
-// let A = [24, 53, 78, 91, 12];
+let A = [24, 53, 78, 91, 12];
 
-// let largest = Math.max(...A);
+let largest = Math.max(...A);
 
-// console.log("The Largest Number is" , largest);
+console.log("The Largest Number is", largest);
 
 /*
 Q7). 
@@ -148,11 +148,11 @@ A = [24, 53, 78, 91, 12].
 
 */
 
-let A = [24, 53, 78, 91, 12];
+let b = [24, 53, 78, 91, 12];
 
-let shortest = Math.min(...A);
+let shortest = Math.min(...b);
 
-// console.log("The shortest number is", shortest);
+console.log("The shortest number is", shortest);
 
 /* 
 Q8). 
@@ -162,5 +162,5 @@ Write a program to print multiples of 5 ranging 1 to
 */
 
 for (let i = 5; i <= 100; i += 5) {
-  //   console.log(i);
+  console.log(i);
 }

@@ -11,15 +11,14 @@ object.
 */
 
 const details = {
-
-    name:"Akber",
-    email:"akbarmirza29@gmail.com",
-    password:"Akbar123",
-    age:27,
-    gender:"Male",
-    City:"Karachi",
-    Country:"Pakistan"
-}
+  name: "Akber",
+  email: "akbarmirza29@gmail.com",
+  password: "Akbar123",
+  age: 27,
+  gender: "Male",
+  City: "Karachi",
+  Country: "Pakistan",
+};
 
 // console.log("Age Exist ? :", "age" in details);
 // console.log("Country Exist ? :", "Country" in details);
@@ -36,11 +35,9 @@ records using the constructor.
 */
 
 function human(human_name, human_age, human_city) {
-
-    this.name = human_name;
-    this.age = human_age;
-    this.city = human_city;
-
+  this.name = human_name;
+  this.age = human_age;
+  this.city = human_city;
 }
 
 let human1 = new human("Akber", 27, "Karachi");
